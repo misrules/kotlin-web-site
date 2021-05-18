@@ -51,6 +51,7 @@ class KTLComponentExtension(Extension):
         if nodejs.returncode != 0:
             input_hash = hashlib.sha1(props_json.encode("utf8")).hexdigest()
             print(" ##teamcity[buildProblem description='ktl-components failed!' identity='%s'] " % input_hash)
+            print(" ##teamcity[buildProblem description='ktl-components failed!' result='%s'] " % result)
             result = self.error_template % stderr_data
 
         return Markup(
