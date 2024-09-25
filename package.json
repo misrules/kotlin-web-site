@@ -40,7 +40,7 @@
     "query-string": "3.0.0",
     "resolve-url-loader": "3.1.2",
     "rimraf": "2.5.2",
-    "rollup": "2.47.0",
+    "rollup": "3.29.5",
     "sass-loader": "7.1.0",
     "scrolltofixed": "1.0.6",
     "smoothscroll-polyfill": "0.3.4",
