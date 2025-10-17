@@ -4,7 +4,7 @@
   "description": "kotlinlang.org site",
   "license": "Apache-2.0",
   "dependencies": {
-    "@jetbrains/babel-preset-jetbrains": "^1.0.1",
+    "@jetbrains/babel-preset-jetbrains": "^2.0.1",
     "@rollup/plugin-buble": "0.21.3",
     "aos": "2.1.1",
     "autoprefixer": "6.3.1",
